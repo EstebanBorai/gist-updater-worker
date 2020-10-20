@@ -1,0 +1,14 @@
+name = "gist-updater-worker"
+type = "javascript"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+
+# https://developers.cloudflare.com/workers/cli-wrangler/configuration#vars
+vars = {
+  GITHUB_AUTHENTICATION = "",
+  GIST_URL = "",
+  FILENAME = "",
+  USER_AGENT = ""
+}

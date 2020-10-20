@@ -1,0 +1,14 @@
+{
+  "name": "gist-updater-worker",
+  "version": "0.1.0",
+  "description": "GitHub Gist Updater Worker",
+  "main": "index.js",
+  "repository": "https://github.com/EstebanBorai/gist-updater-worker.git",
+  "author": "Esteban Borai <estebanborai@gmail.com> (https://github.com/EstebanBorai)",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.11.0",
+    "@types/node": "^14.11.10",
+    "prettier": "^1.18.2"
+  }
+}
